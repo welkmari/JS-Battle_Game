@@ -10,7 +10,7 @@ let chosenMaxLife = parseInt(enteredValue);
 let currentMonsterHealth = chosenMaxLife;
 let currentPlayerHealth = chosenMaxLife;
 let hasBonusLife = true;
-
+  
 adjustHealthBars(chosenMaxLife);
 
 function reset() {
